@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from './pages/home';
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <div className="App dark">
-      <h1>Hello</h1>
+      <Home />
     </div>
   );
 }
