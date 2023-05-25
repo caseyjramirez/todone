@@ -1,0 +1,15 @@
+.light {
+    background-color: $white;
+    color: $black;
+}
+
+.dark {
+    background-color: $black;
+    color: $white;
+}
+
+// The reason for this is to ensure that the App always atleast takes up the entire screen
+.App {
+    min-width: 100vw;
+    min-height: 100vh;
+}
