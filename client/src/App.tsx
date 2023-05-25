@@ -8,9 +8,11 @@ function App() {
 
   return (
     <div className="App dark">
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
     </div>
   );
 }

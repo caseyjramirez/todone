@@ -1,8 +1,8 @@
 const Home = () => {
     return (
-        <>
-        <h1>Home</h1>
-        </>
+        <div className="home full-span-card flex center-center">
+            <h1 className="large">todone.</h1>
+        </div>
     );
 }
  
