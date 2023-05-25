@@ -1,1 +1,8 @@
 @import "./reset.scss";
+@import "./variables.scss";
+
+html {
+    font-family: $font;
+    background-color: $white;
+    color: $black;
+}
