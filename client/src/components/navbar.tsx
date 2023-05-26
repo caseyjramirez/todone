@@ -1,13 +1,12 @@
-const Navbar = () => {
+interface NavBarProps {
+    onChangeDisplayMode: () => void;
+}
 
-    function testing() {
-        console.log("hello");
-    }
-
+const Navbar = ({ onChangeDisplayMode }: NavBarProps) => {
 
     return (
         <div className="navbar pos-fixed">
-            <div className="light-dark-switch pointer" onClick={testing}></div>
+            <div className="light-dark-switch pointer" onClick={onChangeDisplayMode}></div>
 
 
         </div>
