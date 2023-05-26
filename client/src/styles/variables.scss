@@ -6,3 +6,6 @@ $font: Inter, -apple-system, sans-serif;
 $black: #2E2E2E;
 $white: #FFFFFF;
 
+// LIGHT MODE DARK MODE TRANSITION TIMING
+$lmdm-transition: color 0.25s ease, background-color .75s ease;
+

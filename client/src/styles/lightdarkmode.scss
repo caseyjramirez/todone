@@ -1,11 +1,13 @@
 .light {
     background-color: $white;
     color: $black;
+    transition: $lmdm-transition;
 }
 
 .dark {
     background-color: $black;
     color: $white;
+    transition: $lmdm-transition;
 }
 
 // The reason for this is to ensure that the App always atleast takes up the entire screen
