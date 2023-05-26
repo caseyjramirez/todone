@@ -1,8 +1,12 @@
-.flex {
-    display: flex;
-    
-    &.center-center {
-        align-items: center;
-        justify-content: center;
+.dis {
+    &-flex {
+        display: flex;
+        
+        &.center-center {
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
+
+
