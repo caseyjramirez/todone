@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className={`App ${renderDisplayMode(isLightMode)}`}>
-      <Navbar onChangeDisplayMode={setDisplayMode}/>
+      <Navbar onChangeDisplayMode={setDisplayMode} isLight={isLightMode} />
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
