@@ -6,6 +6,7 @@
         width: 20px;
         height: 20px;
         border-radius: 20px;
+        transition: $lmdm-transition;
 
         &.light {
             background-color: $white;
