@@ -7,5 +7,5 @@ $black: #2E2E2E;
 $white: #FFFFFF;
 
 // LIGHT MODE DARK MODE TRANSITION TIMING
-$lmdm-transition: color 0.25s ease, background-color .75s ease;
+$lmdm-transition: color 0.25s ease-in, background-color .25s ease-out;
 
