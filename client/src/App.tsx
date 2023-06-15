@@ -15,8 +15,6 @@ function App() {
     setIsLightMode(isLightMode => !isLightMode)
   }
 
-
-
   return (
     <div className={`App ${renderDisplayMode(isLightMode)}`}>
       <Navbar onChangeDisplayMode={setDisplayMode} isLight={isLightMode} />
